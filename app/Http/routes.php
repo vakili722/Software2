@@ -11,6 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::group(['middleware' => 'auth'], function () {
+    Route::get('/', 'HomeController');
+
+    Route::get('user/profile', function () {
+        // Uses Auth Middleware
+    });
 });

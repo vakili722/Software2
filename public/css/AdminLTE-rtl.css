@@ -13,7 +13,7 @@
 html,
 body {
   min-height: 100%;
-}
+  }
 .layout-boxed html,
 .layout-boxed body {
   height: 100%;
@@ -21,10 +21,31 @@ body {
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'BMitraBold', 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 400;
   overflow-x: hidden;
   overflow-y: auto;
+}
+/* font face */
+@font-face {
+    font-family: 'BKoodakBold';
+    src: url('../fonts/BKoodakBold.eot');
+    src: url('../fonts/BKoodakBold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BKoodakBold.woff') format('woff'),
+         url('../fonts/BKoodakBold.ttf') format('truetype'),
+         url('../fonts/BKoodakBold.svg#BKoodakBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BMitraBold';
+    src: url('../fonts/BMitraBold.eot');
+    src: url('../fonts/BMitraBold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BMitraBold.woff') format('woff'),
+         url('../fonts/BMitraBold.ttf') format('truetype'),
+         url('../fonts/BMitraBold.svg#BMitraBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 /* Layout */
 .wrapper {
@@ -163,7 +184,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'BKoodakBold', 'Source Sans Pro', sans-serif;
 }
 /* General Links */
 a {
