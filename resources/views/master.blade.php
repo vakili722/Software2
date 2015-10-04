@@ -31,7 +31,7 @@
     <!-- custom css -->
     @yield('css')
 </head>
-<body class="hold-transition skin-blue sidebar-mini">
+<body class="hold-transition skin-blue sidebar-mini layout-boxed">
 <div class="wrapper">
     <!-- Header Navbar -->
     <header class="main-header">
