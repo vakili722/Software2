@@ -118,6 +118,7 @@ body {
 .right-side {
   min-height: 100%;
   background-color: #ecf0f5;
+  padding-top: 1px;
   z-index: 800;
 }
 .main-footer {

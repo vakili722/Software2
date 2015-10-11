@@ -13,5 +13,6 @@
     <file url="file://$PROJECT_DIR$/resources/views/emails/password.blade.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/resources/views/header.blade.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/resources/views/master.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/message.blade.php" charset="UTF-8" />
   </component>
 </project>

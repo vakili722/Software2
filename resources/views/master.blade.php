@@ -43,6 +43,9 @@
     </aside>
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
+        <!-- System Messages -->
+        @include('message')
+        <!-- Body Of Content -->
         @include('content')
     </div>
     <!-- footer -->
